@@ -3,15 +3,23 @@
 
 :root{
     --primary-color: #071952;
-    --secondary-color: #0B666A;
-    --third-color: #35A29F;
-    --fourth-color: #35A29F;
+    --secondary-color: #35A29F;
+    /* --secondary-color: #051010; */
+    --third-color: #0B666A;
+    --fourth-color: #97FEED;
     --body-text-color: #010510;
-    --navbar-color: #d7ecec;
+    --navbar-footer-color: #d7ecec;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: var(--body-text-color);
+}
+
+.nav-link{
+    color: var(--primary-color);
+}
+.shadow-effect{
+    box-shadow: 0px 0px 35px -10px rgba(71, 114, 254, 0.3);
 }
