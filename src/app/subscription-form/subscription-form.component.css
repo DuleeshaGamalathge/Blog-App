@@ -1,12 +1,12 @@
 .card{
     background-color: var(--secondary-color);
     border: none;
-    margin-top: 20px;
-    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10%;
     width: 100;
 }
 
-input[text], input[email]{
+input[type = text], input[type = email]{
     height: 60px;
     padding-left: 20px;
     font-size: 13px;
@@ -24,6 +24,6 @@ input[text], input[email]{
 }
 
 button{
-    padding: 10px 20px;
+    padding: 20px 20px;
     width: 100;
 }
