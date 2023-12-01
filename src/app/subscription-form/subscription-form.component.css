@@ -26,4 +26,6 @@ input[type = text], input[type = email]{
 button{
     padding: 20px 20px;
     width: 100;
+    color: white;
+    font-size: 14px;
 }

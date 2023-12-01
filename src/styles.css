@@ -26,3 +26,11 @@ body{
 .bg-theme{
     background-color: var(--primary-color);
 }
+small{
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+}
+
+.text-white{
+    color: white;
+}
