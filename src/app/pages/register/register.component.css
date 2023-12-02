@@ -1,0 +1,51 @@
+.card{
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 100px 0px 20px 0px;
+    padding: 20px 10%;
+    width: 100;
+}
+
+input[type = text], input[type = email]{
+    height: 60px;
+    padding-left: 20px;
+    font-size: 13px;
+    width: 100;
+}
+
+.btn-sub{
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+}
+
+.card-body{
+    align-items: center;    
+}
+
+button{
+    padding: 20px 20px;
+    width: 100;
+    color: white;
+    font-size: 14px;
+    margin: 50px;
+}
+
+.submit-btn{
+    margin: 20px;
+    
+}
+
+form{
+    font-size: 12px;
+}
+input{
+    font-size: 10px;
+    margin-top: 20px;
+    /* height: 30px;
+    width: 150px;
+    margin: 20px; */
+}
+.container{
+    margin-top: 150px;
+}
