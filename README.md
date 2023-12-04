@@ -1,26 +1,72 @@
-# BlogApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+# Angular Application -  Blog-App
 
-## Development server
+This repository contains an Angular application designed to Blog Website.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before you begin, ensure you have met the following requirements:
+- Node.js and npm installed. You can download and install them from [Node.js website](https://nodejs.org/).
+- Angular CLI installed globally. If not, install it using the following command:
 
-## Build
+    npm install -g @angular/cli
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+To install the dependencies, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
+  
+    git clone https://github.com/DuleeshaGamalathge/Blog-App
+    
 
-## Running end-to-end tests
+2. Navigate into the project directory:
+  
+    cd Blog-App
+   
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install dependencies:
+   
+    npm install
+   
+
+## Usage
+
+To run the application locally, use the following steps:
+
+1. Make sure you're in the project directory:
+
+2. Run the development server:
+   
+    ng serve
+    
+3. Open your browser and visit `http://localhost:4200/` to view the application.
+
+## Folder Structure
+
+The project structure is organized as follows:
+
+- `src/`: Contains the source code for the Angular application.
+    - `app/`: Contains components, services, modules, and other Angular files.
+    - `assets/`: Contains static files like images.
+
+## Contributing
+
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/improvement`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push your changes to the branch (`git push origin feature/improvement`).
+5. Create a pull request explaining your changes.
 
 ## Further help
 
