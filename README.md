@@ -9,7 +9,6 @@ This repository contains an Angular application designed to Blog Website.
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
